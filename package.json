@@ -1,0 +1,17 @@
+{
+  "name": "testrunner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test --experimental-test-coverage --test-reporter=lcov --test-reporter-destination=lcov.info  TestRunner/tests/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.6",
+    "chromedriver": "^121.0.0",
+    "selenium-webdriver": "^4.17.0"
+  }
+}
